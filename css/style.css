@@ -16,7 +16,7 @@ body{
 }
 h2{
     font-family: 'Satisfy', cursive;
-    font-size: 1.5em;
+    font-size: 3em;
     margin: 0.67em;
 }
 
@@ -25,7 +25,7 @@ h2.bio{
 }
 
 p.bio{
-    color: #fff;
+    color: #3f7f7c;
 }
 
 header.main_nav{
@@ -96,4 +96,28 @@ p.copyright{
     color: #666;
     font-size: 1em;
 
+}
+
+@media (max-width: 479px) {
+    .logo a{
+        font-size: 2em;
+    }
+    .main {
+        padding-top: 15%;
+    }
+    .portfolio img {
+        margin-bottom: 10%;
+    }
+    img.avatar{
+        margin-top: 15%;
+    }
+    h2.bio {
+        font-size: 2.5em;
+    }
+    p.bio{
+        font-size: 1.25em;
+        color: #3f7f7c;
+    }
+
+    ul.social li a{font-size: .75em}
 }
